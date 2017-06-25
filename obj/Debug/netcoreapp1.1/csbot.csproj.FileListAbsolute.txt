@@ -1,0 +1,16 @@
+C:\csbot\bin\Debug\netcoreapp1.1\csbot.deps.json
+C:\csbot\bin\Debug\netcoreapp1.1\csbot.runtimeconfig.json
+C:\csbot\bin\Debug\netcoreapp1.1\csbot.runtimeconfig.dev.json
+C:\csbot\bin\Debug\netcoreapp1.1\csbot.dll
+C:\csbot\bin\Debug\netcoreapp1.1\csbot.pdb
+C:\csbot\obj\Debug\netcoreapp1.1\csbot.AssemblyInfo.cs
+C:\csbot\obj\Debug\netcoreapp1.1\csbot.dll
+C:\csbot\obj\Debug\netcoreapp1.1\csbot.pdb
+D:\csbot\bin\Debug\netcoreapp1.1\csbot.deps.json
+D:\csbot\bin\Debug\netcoreapp1.1\csbot.runtimeconfig.json
+D:\csbot\bin\Debug\netcoreapp1.1\csbot.runtimeconfig.dev.json
+D:\csbot\bin\Debug\netcoreapp1.1\csbot.dll
+D:\csbot\bin\Debug\netcoreapp1.1\csbot.pdb
+D:\csbot\obj\Debug\netcoreapp1.1\csbot.AssemblyInfo.cs
+D:\csbot\obj\Debug\netcoreapp1.1\csbot.dll
+D:\csbot\obj\Debug\netcoreapp1.1\csbot.pdb
