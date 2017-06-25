@@ -1,5 +1,5 @@
 ﻿/**
-git remote add origin https://github.com/xyzolo/Getting-Started-with-Csharp.git#
+This lessons online notepad
 https://www.microsoft.com/net/tutorials/csharp/getting-started
 
 Aleksey Savin &copy; 2017
@@ -13,6 +13,9 @@ namespace csbot
     {
         static void Main(string[] args)
         {
+
+//paused here https://www.microsoft.com/net/tutorials/csharp/getting-started/for-loops
+
 
 #region ms lesson 7 of 20
 Console.WriteLine("7 lesson");
