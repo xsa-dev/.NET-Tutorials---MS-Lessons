@@ -6,6 +6,8 @@ Aleksey Savin &copy; 2017
 alekseysavin.com
  */
 using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace csbot
 {
@@ -13,18 +15,54 @@ namespace csbot
     {
         static void Main(string[] args)
         {
-        
-#region ms lesson 9 of 20 array collections
-//https://www.microsoft.com/net/tutorials/csharp/getting-started/arrays-collections
+#region ms lesson 10 of 20
+//
+#endregion
+            #region ms lesson 9 of 20 array collections
+            //https://www.microsoft.com/net/tutorials/csharp/getting-started/arrays-collections
+            string oper = ":";
+            string read;
+            List<string> list = new List<string>();
 
+            while (true) {
+                Console.WriteLine($"Enter command (+ item, - item, or -- to clear, quit):");
+                read = Console.ReadLine();
+                string[] param = read.Split(' ');
+                string cntnt = read.Substring(2);
+                
+                oper = param[0];
+
+                if (oper == ":") {
+                    Console.WriteLine("Nothing..");
+                }
+                if (oper == "+") {
+                    list.Add(cntnt);
+                }
+                if (oper == "-") {
+                    list.Remove(cntnt);
+                }
+                if (oper == "--") {
+                    {
+                        list.Clear();
+                    }
+                }
+                list.ForEach(Console.WriteLine);
+                if (oper == "quit") {
+                    break;
+                }
+            }
+
+            #endregion
             #region ms lesson 8 of 20 for loops
             //paused here https://www.microsoft.com/net/tutorials/csharp/getting-started/for-loops
             Console.WriteLine("For loop:");
             for (int x = 0; x < 4; x++)
             {
-                for (int i = 0; i <= 24; i++) {
+                for (int i = 0; i <= 24; i++)
+                {
                     Console.Write($"{i}");
-                    if (i > -1 && i < 24) {
+                    if (i > -1 && i < 24)
+                    {
                         Console.Write($",");
                     }
                     i = i + x;
