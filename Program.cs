@@ -16,7 +16,14 @@ namespace csbot
         static void Main(string[] args)
         {
 #region ms lesson 10 of 20
-//
+//https://www.microsoft.com/net/tutorials/csharp/getting-started/looping-collections
+int sum = 0;
+var test = new List<int>(){2,4,6};
+for (int i = 0; i < test.Count; i++){
+    sum += test[i]; 
+}
+Console.Write(sum);
+Console.ReadLine();
 #endregion
             #region ms lesson 9 of 20 array collections
             //https://www.microsoft.com/net/tutorials/csharp/getting-started/arrays-collections
