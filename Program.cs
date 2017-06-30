@@ -15,46 +15,98 @@ namespace csbot
     {
         static void Main(string[] args)
         {
-#region ms lesson 10 of 20
-//https://www.microsoft.com/net/tutorials/csharp/getting-started/looping-collections
-int sum = 0;
-var test = new List<int>(){2,4,6};
-for (int i = 0; i < test.Count; i++){
-    sum += test[i]; 
-}
-Console.Write(sum);
-Console.ReadLine();
-#endregion
+            #region ms lesson 11 of 20
+            Console.WriteLine
+            while (true)
+            {
+                string inputs = Console.ReadLine();
+                if (inputs == "xy") {
+                    hi();
+                    bark();
+                }
+                if (inputs == "x")
+                {
+                    hi();
+                }
+                if (inputs == "y")
+                {
+                    bark();
+                }
+                if (inputs == "q") {
+                    break;
+                }
+                if (inputs == "a") {
+                    Console.Write(csum(1,2));
+                    Console.Write(sqrt(2));
+                }
+            }
+
+            void hi()
+            {
+                Console.WriteLine("Hi");
+            }
+
+            void bark()
+            {
+                Console.WriteLine("Gav gav gav!");
+            }
+
+            int csum(int x, int y) {
+                return x + y;
+            }
+            
+            int sqrt(int x) {
+                return x * x;
+            }
+
+            #endregion
+            #region ms lesson 10 of 20
+            //https://www.microsoft.com/net/tutorials/csharp/getting-started/looping-collections
+            int sum = 0;
+            var test = new List<int>() { 2, 4, 6 };
+            for (int i = 0; i < test.Count; i++)
+            {
+                sum += test[i];
+            }
+            Console.Write(sum);
+            Console.ReadLine();
+            #endregion
             #region ms lesson 9 of 20 array collections
             //https://www.microsoft.com/net/tutorials/csharp/getting-started/arrays-collections
             string oper = ":";
             string read;
             List<string> list = new List<string>();
 
-            while (true) {
+            while (true)
+            {
                 Console.WriteLine($"Enter command (+ item, - item, or -- to clear, quit):");
                 read = Console.ReadLine();
                 string[] param = read.Split(' ');
                 string cntnt = read.Substring(2);
-                
+
                 oper = param[0];
 
-                if (oper == ":") {
+                if (oper == ":")
+                {
                     Console.WriteLine("Nothing..");
                 }
-                if (oper == "+") {
+                if (oper == "+")
+                {
                     list.Add(cntnt);
                 }
-                if (oper == "-") {
+                if (oper == "-")
+                {
                     list.Remove(cntnt);
                 }
-                if (oper == "--") {
+                if (oper == "--")
+                {
                     {
                         list.Clear();
                     }
                 }
                 list.ForEach(Console.WriteLine);
-                if (oper == "quit") {
+                if (oper == "quit")
+                {
                     break;
                 }
             }
