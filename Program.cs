@@ -13,14 +13,79 @@ namespace csbot
 {
     class Program
     {
+#region lesson 12 classes
+        public class Address
+        {
+            public string StreetAddress { get; set; } = string.Empty;
+            public string City { get; set; } = string.Empty;
+            public string State { get; set; } = string.Empty;
+            public int PostalCode { get; set; } = 0;
+            public string Country { get; set; } = string.Empty;
+
+
+        }
+
+        public class Person
+        {
+            public string FirstName { get; set; } = string.Empty;
+            public string LastName { get; set; } = string.Empty;
+            public Address ShippingAddress { get; set; }
+        }
+
+        public class Company
+        {
+            public string Name { get; set; }
+            public Address ShippingAddress { get; set; }
+        }
+
+#endregion
+
         static void Main(string[] args)
         {
+            #region ms lesson 12 of 20 
+            Console.WriteLine("Lesson 12 start here:");
+            
+            //Values for Address
+            string[] strts = {"Bla bla", "True stree", "Whats street?", "Tverskaya street", "Mangomery Bitch"};
+            string[] citys = {"Moscow", "Sant Petersburg", "Keln", "New York", "Toronto", "Los Angeless", "Polo Alto"};
+            string[] state = {"CA", "BA", "NA", "AA", "SA"};
+            int[] postals = {123, 234, 345, 456, 567};
+            string[] contrys = {"Russia", "Russia", "Germany", "USA", "Canada", "USA", "USA"};
+
+            //Values for Pesons
+            string[] fnames = {"Ignat", "Rahat", "Romb", "Stephan", "Narkoman"};
+            string[] lnames = {"Thatov", "Rahatov", "Stomb", "Lucielly", "Buratinov"};
+            
+            Address adr1 = new Address();
+            Address adr2 = new Address();
+            Address adr3 = new Address();
+            Address adr4 = new Address();
+            Address adr5 = new Address();
+            //Values for Company'es
+            string[] names = {"xSoft", "ySoft", "zSoft", "sSoft", "rSoft" };
+            Address cadr1 = new Address();
+            Address cadr2 = new Address();
+            Address cadr3 = new Address();
+            Address cadr4 = new Address();
+            Address cadr5 = new Address();
+            
+
+        adr1.City = citys[0];
+        adr1.StreetAddress = strts[0];
+        adr1.PostalCode = postals[0];
+        adr1.State = state[0];
+        adr1.Country = contrys[0];
+
+
+
+            #endregion
             #region ms lesson 11 of 20
-            Console.WriteLine
+            Console.WriteLine("Lesson 11 start here");
             while (true)
             {
                 string inputs = Console.ReadLine();
-                if (inputs == "xy") {
+                if (inputs == "xy")
+                {
                     hi();
                     bark();
                 }
@@ -32,11 +97,13 @@ namespace csbot
                 {
                     bark();
                 }
-                if (inputs == "q") {
+                if (inputs == "q")
+                {
                     break;
                 }
-                if (inputs == "a") {
-                    Console.Write(csum(1,2));
+                if (inputs == "a")
+                {
+                    Console.Write(csum(1, 2));
                     Console.Write(sqrt(2));
                 }
             }
@@ -51,11 +118,13 @@ namespace csbot
                 Console.WriteLine("Gav gav gav!");
             }
 
-            int csum(int x, int y) {
+            int csum(int x, int y)
+            {
                 return x + y;
             }
-            
-            int sqrt(int x) {
+
+            int sqrt(int x)
+            {
                 return x * x;
             }
 
