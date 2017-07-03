@@ -29,6 +29,11 @@ namespace csbot
         }
         static void Main(string[] args)
         {
+            #region ms lesson 13 of 20
+            //https://www.microsoft.com/net/tutorials/csharp/getting-started/scope-accessibility
+
+
+            #endregion
             #region ms lesson 12 of 20 
             //https://www.microsoft.com/net/tutorials/csharp/getting-started/classes-objects
             Console.WriteLine("Lesson 12 start here:");
