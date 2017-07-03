@@ -14,6 +14,7 @@ namespace csbot
 {
     class Program
     {
+        //lesson 12 outer method for printing client adress
         public static void prntr(Client Client) {
             Console.WriteLine();
             if (Client.LastName != null) {
