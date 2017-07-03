@@ -14,3 +14,11 @@ D:\csbot\bin\Debug\netcoreapp1.1\csbot.pdb
 D:\csbot\obj\Debug\netcoreapp1.1\csbot.AssemblyInfo.cs
 D:\csbot\obj\Debug\netcoreapp1.1\csbot.dll
 D:\csbot\obj\Debug\netcoreapp1.1\csbot.pdb
+C:\Users\savin\src\csartmslessons\.NET-Tutorials---MS-Lessons\bin\Debug\netcoreapp1.1\csbot.deps.json
+C:\Users\savin\src\csartmslessons\.NET-Tutorials---MS-Lessons\bin\Debug\netcoreapp1.1\csbot.runtimeconfig.json
+C:\Users\savin\src\csartmslessons\.NET-Tutorials---MS-Lessons\bin\Debug\netcoreapp1.1\csbot.runtimeconfig.dev.json
+C:\Users\savin\src\csartmslessons\.NET-Tutorials---MS-Lessons\bin\Debug\netcoreapp1.1\csbot.dll
+C:\Users\savin\src\csartmslessons\.NET-Tutorials---MS-Lessons\bin\Debug\netcoreapp1.1\csbot.pdb
+C:\Users\savin\src\csartmslessons\.NET-Tutorials---MS-Lessons\obj\Debug\netcoreapp1.1\csbot.AssemblyInfo.cs
+C:\Users\savin\src\csartmslessons\.NET-Tutorials---MS-Lessons\obj\Debug\netcoreapp1.1\csbot.dll
+C:\Users\savin\src\csartmslessons\.NET-Tutorials---MS-Lessons\obj\Debug\netcoreapp1.1\csbot.pdb
