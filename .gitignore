@@ -1,1 +1,8 @@
 host
+.vscode\launch.json
+.vscode\tasks.json
+csbot.csproj
+csbot.csproj.nuget.g.props
+project.assets.json
+.\bin\*.*
+.\obj\*.*

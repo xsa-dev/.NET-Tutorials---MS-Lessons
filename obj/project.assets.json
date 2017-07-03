@@ -7475,16 +7475,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\savin\\src\\csartmslessons\\.NET-Tutorials---MS-Lessons\\csbot.csproj",
+      "projectUniqueName": "c:\\Users\\savin\\src\\csartmslessons\\.NET-Tutorials---MS-Lessons\\csbot.csproj",
       "projectName": "csbot",
-      "projectPath": "C:\\Users\\savin\\src\\csartmslessons\\.NET-Tutorials---MS-Lessons\\csbot.csproj",
-      "outputPath": "C:\\Users\\savin\\src\\csartmslessons\\.NET-Tutorials---MS-Lessons\\obj\\",
+      "projectPath": "c:\\Users\\savin\\src\\csartmslessons\\.NET-Tutorials---MS-Lessons\\csbot.csproj",
+      "outputPath": "c:\\Users\\savin\\src\\csartmslessons\\.NET-Tutorials---MS-Lessons\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/csbot.dll": "C:\\Users\\savin\\src\\csartmslessons\\.NET-Tutorials---MS-Lessons\\bin\\placeholder\\netcoreapp1.1\\csbot.dll"
+        "lib/netcoreapp1.1/csbot.dll": "c:\\Users\\savin\\src\\csartmslessons\\.NET-Tutorials---MS-Lessons\\bin\\placeholder\\netcoreapp1.1\\csbot.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
