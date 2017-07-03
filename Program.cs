@@ -37,9 +37,10 @@ namespace csbot
             
             List<Client> clist = new List<Client>();
 
-            //Company
-            for (int i = 1; i <= 10; i++) {
+            //Clients list generator
+            //Do not follow the DRY conception :(
 
+            for (int i = 1; i <= 10; i++) {
             if (i<6) {
                Client cli = new Client( streetAddress: $"Begovaya office {i}",                                         
                                         country: "Russia",
@@ -58,7 +59,7 @@ namespace csbot
                                         state: "MO", 
                                         city: "Moscow",
                                         name: $"Ivan{i}",
-                                        lastName: $"Ivanov {i}"    
+                                        lastName: $"Ivanov{i}"    
                                         );
                                         clist.Add(cli);
             }
