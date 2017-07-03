@@ -8,23 +8,67 @@ alekseysavin.com
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Lesson12;
 
 namespace csbot
 {
     class Program
     {
-
+        public static void prntr(Client Client) {
+            Console.WriteLine();
+            if (Client.LastName != null) {
+                Console.WriteLine(Client.Name + " " + Client.LastName);
+            }
+            else {
+                Console.WriteLine(Client.Name);
+            }
+            Console.WriteLine($"{Client.StreetAddress}");
+            Console.WriteLine($"{Client.City}, {Client.State}, {Client.PostalCode}");
+            Console.WriteLine($"{Client.Country}");
+        }
         static void Main(string[] args)
         {
             #region ms lesson 12 of 20 
+            //https://www.microsoft.com/net/tutorials/csharp/getting-started/classes-objects
             Console.WriteLine("Lesson 12 start here:");
             Console.WriteLine("Press any key to start...");
+            Console.WriteLine("I am rewrite classes of lesson12 object out of the scope and importing them in main file.");
             Console.ReadKey();
+            
+            List<Client> clist = new List<Client>();
 
-            for (int i = 0; i < 100; i++) {
-                Console.WriteLine($"Code of Lesson 12 here. Row {i}");
+            //Company
+            for (int i = 1; i <= 10; i++) {
+
+            if (i<6) {
+               Client cli = new Client( streetAddress: $"Begovaya office {i}",                                         
+                                        country: "Russia",
+                                        postalCode: $"12312{i}",
+                                        state: "MO", 
+                                        city: "Moscow",
+                                        name: $"Company {i}, inc.",
+                                        lastName: null    
+                                        );
+                                        clist.Add(cli);
             }
+            else {
+                               Client cli = new Client( streetAddress: $"Tverskaya {i}",                                         
+                                        country: "Russia",
+                                        postalCode: $"12710{i}",
+                                        state: "MO", 
+                                        city: "Moscow",
+                                        name: $"Ivan{i}",
+                                        lastName: $"Ivanov {i}"    
+                                        );
+                                        clist.Add(cli);
+            }
+            }          
 
+            foreach (Client client in clist) {
+                prntr(client);
+            }
+            
+            Console.WriteLine();
             Console.WriteLine("This. End. Press any key.");
             Console.ReadKey();
 
