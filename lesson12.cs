@@ -1,6 +1,6 @@
 using System;
 
-namespace Lesson12
+namespace lesson12
 {
 
 public class Client : Address {

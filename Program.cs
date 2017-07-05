@@ -1,4 +1,4 @@
-﻿/**
+﻿/**q
 This lessons online notepad
 https://www.microsoft.com/net/tutorials/csharp/getting-started
 
@@ -8,11 +8,11 @@ alekseysavin.com
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Lesson12;
+using lesson12;
 
 namespace csbot
 {
-    class Program
+    class Program 
     {
         //lesson 12 outer method for printing client adress
         public static void prntr(Client Client) {
