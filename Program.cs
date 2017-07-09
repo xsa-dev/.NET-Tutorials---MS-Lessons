@@ -30,6 +30,11 @@ namespace csbot
         }
         static void Main(string[] args)
         {
+
+            #region ms lesson 14 of 20
+            //https://www.microsoft.com/net/tutorials/csharp/getting-started/encapsulation-oop
+            #endregion
+
             #region ms lesson 13 of 20
             //https://www.microsoft.com/net/tutorials/csharp/getting-started/scope-accessibility
 
