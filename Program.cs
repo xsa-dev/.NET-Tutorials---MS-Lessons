@@ -9,6 +9,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using lesson12;
+using Cource;
 
 namespace csbot
 {
@@ -32,6 +33,33 @@ namespace csbot
             #region ms lesson 13 of 20
             //https://www.microsoft.com/net/tutorials/csharp/getting-started/scope-accessibility
 
+            Console.WriteLine("This is begining of 13 lesson.");
+            Console.WriteLine("Pless any key to start...");
+            Console.ReadKey();
+
+            Student sru1 = new Student("Antonio", "Bottichelli", DateTime.Now);
+            Student student1 = new Student("Alekso","Sabinoza",DateTime.Now);
+            Student student2 = new Student("Alessino", "Zavinskij", DateTime.Now);
+
+            Cource.Cource cource = new Cource.Cource();
+
+            cource.list.Add(student1);
+            cource.list.Add(sru1);
+            cource.list.Add(student2);
+
+            cource.writeRoostedName();
+            cource.writeStudentName();
+
+            // try {
+            //     Console.WriteLine(student1.FirstName == "Alekseyka");
+            //     Console.WriteLine(student1.LastName == "Savino");
+            // }
+
+            // catch (Exception e) {
+            //     Console.WriteLine(e);
+            // }
+
+            Console.WriteLine("This is the end of 13 lesson. Thanks!");
 
             #endregion
             #region ms lesson 12 of 20 
